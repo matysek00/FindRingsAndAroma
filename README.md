@@ -23,5 +23,4 @@ for x in Rings:
 rings.PlotRings(Rings, Atoms, inplot='aromHOMA')
 plt.show()
 ```
-This will result in 
 <img src="./sys.png" alt="" style="width:10px;"/>
