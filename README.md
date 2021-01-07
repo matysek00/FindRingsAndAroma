@@ -24,3 +24,6 @@ rings.PlotRings(Rings, Atoms, inplot='aromHOMA')
 plt.show()
 ```
 <img src="./sys.png" alt="" style="width:10px;"/>
+
+
+The values of HOMA aromacity are probably incorect as I set alpha=1 for simplicity
