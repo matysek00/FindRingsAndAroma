@@ -18,7 +18,7 @@ Rings = rings.Get_rings(Atoms) # find rings in the Atoms system
 
 for x in Rings:
     x.Set_aromHOMA(alpha = 1)
-    # x.atom_ind holds the indicies of the atoms in th ring 
+    # x.atom_ind holds the indicies to acces the ring atoms in the Atoms system 
     
 rings.PlotRings(Rings, Atoms, inplot='aromHOMA')
 plt.show()
